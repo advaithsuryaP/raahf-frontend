@@ -1,0 +1,29 @@
+/* filepath: /c:/Users/ASUS/Projects/raahf-frontend/src/app/finance/transaction/transaction-edit/transaction-edit.component.scss */
+.transaction-edit-container {
+    display: flex;
+    justify-content: center;
+}
+
+mat-card {
+    width: 100%;
+    max-width: 600px;
+}
+
+mat-card-content {
+    margin-top: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.amount-input::-webkit-outer-spin-button,
+input.amount-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+input.amount-input {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
