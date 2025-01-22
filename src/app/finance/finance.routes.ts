@@ -7,7 +7,7 @@ export const routes: Routes = [
             import('./finance.component').then((c) => c.FinanceComponent),
         children: [
             {
-                path: 'transaction',
+                path: 'transactions',
                 loadComponent: () =>
                     import('./transaction/transaction.component').then(
                         (c) => c.TransactionComponent
@@ -19,6 +19,13 @@ export const routes: Routes = [
                             import(
                                 './transaction/transaction-list/transaction-list.component'
                             ).then((c) => c.TransactionListComponent),
+                    },
+                    {
+                        path: 'add',
+                        loadComponent: () =>
+                            import(
+                                './transaction/transaction-edit/transaction-edit.component'
+                            ).then((c) => c.TransactionEditComponent),
                     },
                     {
                         path: 'edit/:id',
