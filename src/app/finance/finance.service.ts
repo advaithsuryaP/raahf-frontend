@@ -3,7 +3,7 @@ import { Transaction } from '../core/models/transaction.model';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { API_ENDPOINTS } from '../core/constants/app.constants';
-import { AddTransactionPayload } from '../core/payloads/transaction.payload';
+import { AddTransactionPayload } from '../core/constants/payloads/transaction.payload';
 
 @Injectable({
     providedIn: 'root',
