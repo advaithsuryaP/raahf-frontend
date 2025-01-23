@@ -17,7 +17,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FinanceService } from '../../finance.service';
-import { AddTransactionPayload } from '../../../core/constants/payloads/transaction.payload';
+import { AddTransactionPayload } from '../../../../core/constants/payloads/transaction.payload';
 
 @Component({
     selector: 'app-transaction-edit',
